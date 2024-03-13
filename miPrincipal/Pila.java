@@ -33,4 +33,14 @@ public class Pila<T> {
         }
         tamanio++;
     }
+    public void retirar(){
+        if(!esVacia){
+            cabeza = cabeza.getSiguente();
+            tamanio--;
+        }
+    }
+    //Devuelve el elemento en el tope de lapila
+    public T cima(){
+        
+    }
 }
