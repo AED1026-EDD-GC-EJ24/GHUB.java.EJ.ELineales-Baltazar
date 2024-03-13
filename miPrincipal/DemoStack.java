@@ -11,5 +11,7 @@ public class Stack {
         //Desapilamos elementos
         pila.pop();
         System.out.println("El tope de la pila es "+pila.peek());
+        int pos = pila.search(0);
+        System.out.println("posicionamiento "+pos);
     }
 }
